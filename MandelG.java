@@ -103,6 +103,7 @@ public class MandelG extends JFrame {
 
 				for(int y = 0; y<getHeight(); y++) {
 
+					//determine the start position to color the pixels
 					double real = xmin + (x/(double)getWidth())*dx;
 					double imag = ymin + (y/(double)getHeight())*dy;
 
@@ -125,7 +126,7 @@ public class MandelG extends JFrame {
 
 			if(iterations == set.getMaxIterations()) {
 
-				color = Color.black;
+				color = Color.BLACK;
 			}
 			else {
 

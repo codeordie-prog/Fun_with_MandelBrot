@@ -1,7 +1,4 @@
 
-
-
-
 import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.EventQueue;
@@ -134,7 +131,7 @@ public class MandelG extends JFrame {
 
 				//determine color based on how far the points are from the mandelbrot set
 
-				color = new Color(Color.HSBtoRGB((float)iterations/256, 1, iterations/iterations + 10.0f));
+				color = new Color(Color.HSBtoRGB((float)iterations/256, 1, iterations/iterations + 2.0f));
 			}
 
 			return color;

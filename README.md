@@ -5,7 +5,7 @@ The Mandelbrot set stands as a captivating mathematical concept driven by the eq
 Z=Z^2+C. Before delving into this equation, let's revisit the fundamentals: an imaginary number, denoted as i, arises from the square root of a negative real number, symbolized as
 √(−1) . On the other hand, a complex number, such as 5+i, combines a real part (like the familiar 5) with an imaginary part. Now armed with this foundational knowledge, let's unravel the Mandelbrot equation. Starting with a number Z, squaring it, adding a complex number C, and repeating this process through several iterations, we discern between numbers that spiral into infinity and those that stay grounded. To visualize this, a computational program plots each non-escaping number on a plane. Points that withstand the infinity allure earn the distinguished color of BLACK, while those succumbing to infinity's grasp receive varying bright colors, reflecting their distance from the Mandelbrot set. It's a mesmerizing dance of numbers and hues.
 
-![MandelBrot](C:\Users\LENOVO\eclipse-workspace\MandelBrot\images\mdl.png)
+![MandelBrot](C:/Users/LENOVO/eclipse-workspace/MandelBrot/images/mdl.png)
 
 derivation of the equation and the computation algorithm
 

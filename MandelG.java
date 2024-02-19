@@ -48,7 +48,7 @@ public class MandelG extends JFrame {
 	public MandelG() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(200, 50, 900, 600);
-		setTitle("The Graphical Representation of The MandelBrot Sets with Respect to z = z² + c");
+		setTitle("The visual Representation of The MandelBrot Sets with Respect to z = z² + c");
 
 		//add the drawing panel
 		add(new Drawing());
@@ -132,7 +132,7 @@ public class MandelG extends JFrame {
 
 				//determine color based on how far the points are from the mandelbrot set
 
-				color = new Color(Color.HSBtoRGB((float)iterations/256, 1, iterations/iterations + 2.0f));
+				color = new Color(Color.HSBtoRGB((float)iterations/256, 1, iterations/iterations + 1.0f));
 			}
 
 			return color;
